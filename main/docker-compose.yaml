@@ -8,7 +8,7 @@ services:
       POSTGRES_DB: ny_taxi
     volumes:
       - type: bind
-        source: ./workspaces/DataCamp2024/Week 1/ny_taxi_postgres_data
+        source: ./workspaces/DataCamp2024/main/ny_taxi_postgres_data
         target: /var/lib/postgresql/data
     ports:
       - "5432:5432"

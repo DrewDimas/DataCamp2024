@@ -18,7 +18,7 @@ docker run -it \
 	-e POSTGRES_USER="root" \
 	-e POSTGRES_PASSWORD="root" \
 	-e POSTGRES_DB="ny_taxi" \
-	-v "$(pwd)/workspaces/DataCamp2024/Week 1/ny_taxi_postgres_data:/var/lib/postgresql/data" \
+	-v "$(pwd)/workspaces/DataCamp2024/main/ny_taxi_postgres_data:/var/lib/postgresql/data" \
 	-p 5432:5432 \
 	postgres:13	
 
@@ -39,7 +39,7 @@ docker run -it \
 	-e POSTGRES_USER="root" \
 	-e POSTGRES_PASSWORD="root" \
 	-e POSTGRES_DB="ny_taxi" \
-	-v "$(pwd)/workspaces/DataCamp2024/Week 1/ny_taxi_postgres_data:/var/lib/postgresql/data" \
+	-v "$(pwd)/workspaces/DataCamp2024/main/ny_taxi_postgres_data:/var/lib/postgresql/data" \
 	-p 5432:5432 \
 	--network=pg-network \
 	--name pg-database \

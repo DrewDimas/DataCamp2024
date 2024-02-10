@@ -1,6 +1,6 @@
 variable "credentials" {
   description = "Project Creds"
-  default     = file("/workspaces/DataCamp2024/Week 1/terraform/keys/my-creds.json")
+  default     = file("/workspaces/DataCamp2024/main/terraform/keys/my-creds.json")
 }
 
 variable "project" {
