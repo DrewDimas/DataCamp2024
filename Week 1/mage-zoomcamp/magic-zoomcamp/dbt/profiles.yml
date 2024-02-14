@@ -1,9 +1,3 @@
-# https://docs.getdbt.com/docs/core/connect-data-platform/profiles.yml
-
-base:
-  outputs:
-
-    dev:
-      type: duckdb
-
-  target: dev
+version https://git-lfs.github.com/spec/v1
+oid sha256:090179a78d73827dc1d3cb0000cd720bcb7a410ecc69276acde016ff2e887fdd
+size 133

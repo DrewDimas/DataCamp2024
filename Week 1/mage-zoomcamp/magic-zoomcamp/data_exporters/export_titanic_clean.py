@@ -1,16 +1,3 @@
-from mage_ai.io.file import FileIO
-from pandas import DataFrame
-
-if 'data_exporter' not in globals():
-    from mage_ai.data_preparation.decorators import data_exporter
-
-
-@data_exporter
-def export_data_to_file(df: DataFrame, **kwargs) -> None:
-    """
-    Template for exporting data to filesystem.
-
-    Docs: https://docs.mage.ai/design/data-loading#example-loading-data-from-a-file
-    """
-    filepath = 'titanic_clean.csv'
-    FileIO().export(df, filepath)
+version https://git-lfs.github.com/spec/v1
+oid sha256:44eff674daa2e3946c823975d9c18e84e004eb5303df7a19f8823bed98d0ffc8
+size 460

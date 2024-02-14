@@ -1,14 +1,3 @@
-.DS_Store
-.file_versions
-.gitkeep
-.log
-.logs/
-.mage_temp_profiles
-.preferences.yaml
-.variables/
-__pycache__/
-docker-compose.override.yml
-logs/
-mage-ai.db
-mage_data/
-secrets/
+version https://git-lfs.github.com/spec/v1
+oid sha256:e715094a71d7d0e142f66714c994ae52dd9058bd8915b9e7bb37629b156397e4
+size 174
