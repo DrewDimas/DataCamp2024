@@ -28,7 +28,7 @@ select
     
     -- payment info
     cast(fare_amount as numeric) as fare_amount,
-    cast(extra as numeric) as extra,
+    cast(extra as numeric) as extra,    
     cast(mta_tax as numeric) as mta_tax,
     cast(tip_amount as numeric) as tip_amount,
     cast(tolls_amount as numeric) as tolls_amount,
